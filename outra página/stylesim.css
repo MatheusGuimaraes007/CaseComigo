@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #a55773;
+    font-family: 'Noto Serif', serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Serif', serif;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+img{
+    width: 400px;
+    border-top: 17px solid white;
+    border-left: 17px solid white;
+    border-right: 17px solid white;
+    border-bottom: 70px solid white;
+}
+span{
+    font-size: 35px;
+    
+}
+p{
+    text-align: center;
+    line-height: 1.3;
+    font-size: 30px;
+    
+}
+/* Telas Pequenas */
+@media (min-width: 249px) and (max-width: 480px) 
+{
+ h1{
+      font-size: 40px;
+      text-align: center;
+      justify-self: center;
+      align-self: center;
+ }
+ img{
+    width: 200px;
+ }
+ p{
+    font-size: 18px;
+ }
+ h2{
+    font-size: 20px;
+      text-align: center;
+      justify-self: center;
+      align-self: center;
+ }
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Telas Médias */
+@media (min-width: 481px)  and (max-width: 1024px) 
+{
+    h1{
+        text-align: center;
+      justify-self: center;
+      align-self: center;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Telas Grandes */
+@media screen and (min-width: 1024px) 
+{
+ 
+}
